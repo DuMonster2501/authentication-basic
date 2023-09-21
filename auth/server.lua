@@ -1,4 +1,4 @@
-local ipuser = "177.92.55.129" -- IP DO CLIENTE
+local ipuser = "" -- IP DO CLIENTE
 local Autorizado = false -- VARIAVEL PARA VER SE O SCRIPT FOI AUTORIZADO
 PerformHttpRequest("http://api.ipify.org",function(err,data) -- API
     local ip = data -- SETA A VARIAVEL "ip" COM OS VALORES DO "data"
